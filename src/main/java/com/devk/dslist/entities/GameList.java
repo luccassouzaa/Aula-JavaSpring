@@ -10,7 +10,7 @@ import jakarta.persistence.Table;
 
 
 @Entity
-@Table(name = "td_game_list")
+@Table(name = "tb_game_list")
 public class GameList {
 
 	@Id //auto-incrementado
