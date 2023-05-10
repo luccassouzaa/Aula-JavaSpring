@@ -15,7 +15,7 @@ public class Game {
 	
 	@Id //auto-incrementado
 	@GeneratedValue(strategy = GenerationType.IDENTITY) // primary key
-	private long id;
+	private Long id;
 	private String title;
 	
 	@Column(name = "game_year") // mudar o nome do int year no sql
@@ -48,7 +48,7 @@ public class Game {
 		this.longDescription = longDescription;
 	}
 
-	public long getId() {
+	public Long getId() {
 		return id;
 	}
 
